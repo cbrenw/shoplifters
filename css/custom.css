@@ -1,0 +1,160 @@
+
+/*hero image*/
+.first-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1%;
+}
+/*hero image ENDS*/
+
+/*facebook icon*/
+.fa-facebook-square {
+	display: absolute;
+	margin-left: 22%;
+	font-size: 20px;
+	color: #71E69C;
+}
+/*facebook icon ENDS*/
+
+/*instagram icon*/
+.fa-instagram {
+	display: absolute;
+	margin-left: 0.5%;
+	font-size: 20px;
+	color: #71E69C;
+}
+/*instagram icon ENDS*/
+
+/*film title*/
+h1{
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	margin-left: 21%;
+	font-size: 35px;
+}
+/*film title ENDS*/
+
+/*director name*/
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #7C94C6;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: -20px;
+	margin-left: 22%;
+}
+/*director name ENDS*/
+
+/*poster image*/
+.shoplifters-poster {
+	display: block;
+	float: left;
+	width: 25%;
+	margin-left: 18%;
+	padding-top: 8%;
+	}
+/*poster image ENDS*/
+
+/*film synopsis*/
+.main-text {
+	font-family: 'Montserrat', sans-serif;
+	color: #EEF5F9;
+	font-size: 18px;
+	float: left;
+	margin-top: 8%;
+	margin-left: 2%;
+	width: 35%;
+	}
+/*film synopsis ENDS*/	
+
+/*film trailer styling*/
+.trailer {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}	
+
+.popup-youtube {
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0.9;
+	padding: -10px 20px 10px 20px;
+	width: 100%;
+	float: left;
+	margin-top: 15%;
+}
+/*film trailer styling ENDS*/
+
+/*column text of cast and credits*/
+.column {
+	font-family: 'Montserrat', sans-serif;
+	color: #EEF5F9;
+	float: left;
+  	margin-top: 9%;
+  	padding-bottom: 12%;
+  	text-align: center;
+  	margin-left: 330px;
+    max-width: 325px;
+}
+/*column text of cast and credits ENDS*/
+
+/*title for columns*/
+.column h2 {
+	text-align: center;
+	margin-left: 0px;
+}
+/*title for columns ENDS*/
+
+/*cast and credits text styling*/
+a {
+	font-family: 'Montserrat', sans-serif;
+  	color: #85AE9A;
+  	text-decoration: none;
+}
+
+a:hover {
+	color: #6C7EF7;	
+}
+/*cast and credits text styling ENDS*/
+
+/*website background colour and height*/
+body {
+	background-color: #222C35;
+}
+
+body, html {
+	height: 100%;
+}
+/*website background colour and height ENDS*/
+
+/*media queries*/
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media only screen (min-width: 1025px) and (max-width: 1280px) {
+  
+  	.column {
+		width: 100%;
+	}
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media only screen and (max-width: 1024px) {
+  
+	.column {
+		width: 100%;
+}
+
+/*media queries ENDS*/  
+
+
+
+
+
+
